@@ -63,8 +63,9 @@ int main()
 
 int menu() {
 	int op, c;
-	system("C1s");
+	system("Cls");
 
+	printf("VAMOS ENTENDER LISTAS ENCADEADAS? ESCOLHA A OPCAO: \n" "<3 LETICIA, NAO SE ESQUECA, VOCE COSNEGUE! <3\n");
 	printf("1. Inserir no INICIO da lista encadeada simples\n");
 	printf("2. Inserir no FIM da lista encadeada simples\n");
 	printf("3. Inserir no MEIO da lista encadeada simples\n");
