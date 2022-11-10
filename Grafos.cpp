@@ -10,7 +10,7 @@ struct ListaDeVizinhos
 struct Grafo
 {
 	int TotalVertices;
-	struct ListaDeVizinhos** ListaAdj; //Será um vetor do tamanho do numero de vértices
+	struct ListaDeVizinhos** ListaAdj; //SerÃ¡ um vetor do tamanho do numero de vÃ©rtices
 };
 
 struct Grafo* CriarGrafo(int vertices);
@@ -45,7 +45,7 @@ struct Grafo* CriarGrafo(int TotalVertices)
 }
 
 void AdicionarAresta(struct Grafo* Grafo, int origem, int destino)
-{ //INSERÇÃO NO INICIO DA LISTA 
+{ //INSERÃ‡ÃƒO NO INICIO DA LISTA 
 	// Adiciona uma aresta da origem para o  destino
 	struct ListaDeVizinhos* NovoElemento = (struct ListaDeVizinhos*)malloc(sizeof(struct ListaDeVizinhos));
 	NovoElemento->vertice = destino;
